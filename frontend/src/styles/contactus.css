@@ -1,0 +1,316 @@
+/* For contactus desktop view */
+
+.contact-section-1{
+    padding: 50px 100px 50px 100px;
+    margin-right: 550px;
+    text-align: left;
+}
+.contact-section-1 p{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.contact-section-2{
+    padding: 0px 100px 100px 100px;
+}
+.contact-section-2 .contact-cards-1{
+    padding: 32px;
+    gap: 168px;
+    background: #F2F2FF;
+    border: 1px solid #C8C8FF;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+.contact-section-2 .contact-cards-1-info{
+    width: 50%;
+    float: left;
+}
+.contact-section-2 .contact-cards-1-info p{
+    margin-right: 50px;
+    font-size: 18px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    color: #000000;
+}
+.contact-section-2 .contact-cards-2{
+    padding: 32px;
+    gap: 168px;
+    background: #F2F2FF;
+    border: 1px solid #C8C8FF;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+.contact-section-2 .contact-cards-3{
+    padding: 32px;
+    gap: 168px;
+    background: #F2F2FF;
+    border: 1px solid #C8C8FF;
+    border-radius: 8px;
+}
+.contact-section-3{
+    padding: 60px 100px 60px 100px;
+    background-color: #EAEAEA;
+    
+}
+
+.contact-section-3 .section-3-form form{
+    display: flex;
+    flex-direction: column;
+}
+.contact-section-3 .section-3-left{
+    margin: 12px 0px 0px 0px;
+    width: 50%;
+    float: left;
+}
+.contact-section-3 .section-3-left h3{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    color: #000000;
+}
+.contact-section-3 .section-3-left p{
+    margin-right: 80px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.contact-section-3 .section-3-left .contact-section-3-form-info{
+    display: flex;
+    justify-content: start;
+
+}
+.contact-section-3-form-info .contact-info-mailto{
+    padding: 0px 220px 0px 0px;
+}
+.section-form-1 {
+    display: flex;
+}
+.section-form-2{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-section-3 .section-3-form input{
+    background: #FFFFFF;
+    border: 1px solid #C8C8FF;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: -webkit-fill-available;
+    padding: 12px;
+    margin: 12px;
+    outline: none;
+}
+.contact-section-3 .section-3-form select{
+    background: #FFFFFF;
+    border: 1px solid #C8C8FF;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: -webkit-fill-available;
+    padding: 12px;
+    margin: 12px;
+    outline: none;
+}
+.contact-section-3 .section-3-form textarea{
+    background: #FFFFFF;
+    border: 1px solid #C8C8FF;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px;
+    margin: 12px;
+    width: auto;
+}
+.section-3-form .contact-section-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 12px;
+    height: 61px;
+    background: #272973;
+    border-radius: 8px;
+    margin: 12px;
+}
+
+.section-3-form .contact-section-submit button{
+    width: 100%;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    background: #272973;
+    border: none;
+}
+.contact-sml-cards{
+    display: flex;
+    justify-content: space-between;
+    padding: 75px 0px 25px 0px;
+}
+.contact-sml-cards .sml-card-1{
+    border: 1px solid black;
+    padding: 25px;
+    text-align: center;
+}
+.contact-sml-cards .sml-card-2{
+    border: 1px solid black;
+    padding: 25px;
+    text-align: center;
+}
+.contact-sml-cards .sml-card-3{
+    border: 1px solid black;
+    padding: 25px;
+    text-align: center;
+}
+
+.section-3-form-tnc{
+    float: right;
+    margin-left: 10px;
+    padding: 12px;
+}
+
+
+/* For contactus tab view */
+
+@media screen and (max-width:1020px) and (min-width:481px) {
+    .contact-section-1{
+        padding: 30px 60px 30px 60px;
+        margin-right: 250px;
+        text-align: left;
+    }
+    .contact-section-2{
+        padding: 0px 60px 60px 60px;
+    }
+    .contact-section-3{
+        padding: 40px 60px 40px 60px;
+    }
+    .contact-section-3 .section-3-left{
+        float: none;
+        width: 100%;
+    }
+    .contact-sml-cards{
+        display: flex;
+        justify-content: space-between;
+        padding: 45px 0px 0px 0px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .contact-info-common{
+        padding: 0px 0px 50px 0px;
+        overflow-wrap: break-word;
+    }
+    .contact-sml-cards .sml-card-1{
+        margin: 5px 0px 25px 0px;
+        overflow-wrap: break-word;
+    }
+    .contact-sml-cards .sml-card-2{
+        margin: 0px 0px 25px 0px;
+        overflow-wrap: break-word;
+    }
+
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+    
+    .contact-section-1{
+        margin-right: 50px;
+    }
+    .contact-section-2{
+        padding: 0px 25px 25px 25px;
+    }
+    .contact-section-2 .contact-cards-1-info p{
+        overflow-wrap: break-word;
+    }
+
+}
+
+/* For contact us mobile view page */
+
+@media screen and (max-width:480px) and (min-width:260px) {
+    .contact-section-1{
+        padding: 16px;
+        margin-right: 32px;
+        text-align: left;
+    }
+    .contact-section-1 p{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .contact-section-2{
+        padding: 16px;
+    }
+    .contact-section-2 .contact-cards-1-info{
+        width: 100%;
+        float: none;
+    }
+    .contact-section-2 .contact-cards-1-info h1{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #272973;
+    }
+    .contact-sml-cards{
+        display: block;
+        padding: 32px 16px 16px 16px;
+    }
+    .contact-sml-cards .sml-card-1{
+        padding: 10px;
+        margin: 10px;
+    }
+    .contact-sml-cards .sml-card-2{
+        margin: 10px;
+    }
+    .contact-sml-cards .sml-card-3{
+        margin: 10px;
+    }
+    .contact-section-3{
+        padding: 32px 16px 16px 16px;
+    }
+    .contact-section-3 .section-3-left{
+        width: 100%;
+        margin: 10px 10px 35px 10px;
+    }
+    .contact-info-call-to{
+        display: block;
+        padding: 0px;
+    }
+    .contact-section-3-form-info .contact-info-mailto{
+        padding: 0px 10px 0px 0px;
+    }
+    .section-form-1{
+        display: block;
+    }
+    .contact-section-3 .section-3-form form{
+        display: block;
+    }
+    .contact-section-3 .section-3-form textarea{
+        width: -webkit-fill-available;
+    }
+    .contact-info-mailto{
+        padding: 0px;
+    }
+    .section-form-2{
+        display: block;
+    }  
+    .section-3-form-tnc{
+        background: #EAEAEA;
+    }
+}

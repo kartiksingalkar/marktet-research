@@ -1,0 +1,249 @@
+.report-heading {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 35px;
+  text-align: center;
+  color: #272973;
+}
+
+.common-border img{
+  height: 150px;
+  margin-top: 15px;
+}
+
+.common-heading {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #272973;
+}
+
+.common-text {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+
+  color: #000000;
+}
+
+.report_img {
+  width: 150px;
+  height: 150px;
+  background: #cdceff;
+  border-radius: 8px;
+}
+
+.common-border {
+  border: 1px solid #cdceff;
+  border-radius: 16px;
+}
+
+/* EMR section  */
+.emr-parent{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 50px;
+}
+.emr-common-border {
+  border: 1px solid #cdceff;
+  border-radius: 16px;
+}
+
+.emr-heading {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 46px;
+  text-align: center;
+
+  color: #272973;
+}
+
+.emr-child{
+    margin: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.emr_para{
+  padding: 16px 10px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #000000;
+}
+.reports-section-3-reasons{
+  background-color: #EAEAEA;
+  padding: 20px 80px 10px 80px;
+}
+h2.emr-heading.pt-5 {
+  padding-bottom: 60px;
+}
+
+.emr_img {
+  height: 60px;
+  overflow: hidden;
+  border-radius: 50%;
+  background: #cdceff;
+  margin-top: 20px;
+}
+
+/* css for report section  */
+
+.report-parent{
+  display: flex;
+  flex: row;
+  margin-bottom: 20px;
+} 
+
+.report-child-1{
+  margin: 15px;
+}
+
+.report-child-2 {
+  padding: 25px;
+}
+
+
+
+.total_report_heading {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #000000;
+}
+
+.report_title {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  color: #000000;
+  font-size: 22px;
+}
+/* For forth coming reports desktop view */
+
+.report_body {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  color: #000000;
+}
+
+/* pagination section */
+.pagination_button {
+  display: inline-block;
+}
+
+.pagination_button li {
+  /* color: black ; */
+  float: left;
+  padding: 8px 16px;
+  list-style: none;
+}
+
+.pagination_button li:hover {
+  background-color: #cdceff;
+  border-color: 2px solid #272973;
+  border-radius: 50%;
+}
+
+.pagination_button Link {
+  text-decoration: none;
+}
+
+.pagination_button li.active {
+  background-color: #cdceff;
+  color: white;
+  border-radius: 50%;
+}
+
+.link {
+  text-decoration: none;
+  color: #000000;
+}
+.emr-carousel{
+  display: none;
+}
+
+/* css for  tab view forth coming reports */
+@media only screen and (max-width: 990px) and (min-width:481px){
+  
+  .report_img {
+    width: 120px;
+    height: 120px;
+  }
+  .reports-section-3-reasons{
+    padding: 0px;
+  }
+  
+
+}
+
+/* For forth coming reports mobile view */
+
+@media screen and (max-width:480px) and (min-width:260px){
+
+  .reports-section-3-reasons{
+    padding: 0px;
+  }
+
+  .industries-dropdown-forth{
+    display: none;
+  }
+  .total-reports{
+    display: flex;
+    justify-content: flex-start;
+  }
+  .total_report_heading{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 16px;
+  }
+  .common-border{
+    display: flex;
+    flex-direction: column;
+  }
+  .common-border img{
+    height: 150px;
+    width: -webkit-fill-available;
+    margin-top: 5px;
+  }
+  .report_img{
+    margin-left: 0px !important;
+  }
+  .report_title{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #272973;
+  }
+  .reports-section-3-reasons h2{
+    font-size: 20px;
+    line-height: 29px;
+  }
+
+  .emr-carousel{
+    display: block;
+  }
+
+  .emr-desktop-view{
+    display: none;
+  }
+
+}

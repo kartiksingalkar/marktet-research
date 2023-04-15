@@ -1,0 +1,145 @@
+.footer-container {
+    padding: 80px 100px;
+}
+
+.footer-logo-container {
+    padding-bottom: 80px;
+}
+
+.footer-link-text h3 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    color: #272973;
+}
+
+.footer-link-text ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-link-text ul li {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #272973;
+    padding-bottom: 12px;
+}
+
+.quick-links {
+    margin-bottom: 40px;
+}
+
+.footer-link-text a {
+    text-decoration: none;
+}
+
+.footer-link-text p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #272973;
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+
+.payment-img {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-contact-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.newsletter-form {
+    margin-top: 40.5px;
+    margin-bottom: 16px;
+}
+
+.newsletter-form form input {
+    padding: 11px 0 11px 12px;
+    border-radius: 8px;
+    border: 1px solid #C8C8FF;
+}
+
+.newsletter-form form input:focus {
+    outline: none;
+}
+
+.newsletter-form form button {
+    padding: 8px 28.5px;
+    color: white;
+    background: #272973;
+    border-radius: 8px;
+    border: none;
+}
+.newsletter-form form{
+    display: flex;
+    gap: 16px;
+}
+.footer-contact-sec a{
+    text-decoration: none;
+    color: #272973;
+}
+
+/* Footer css for tab view */
+@media screen and (min-width: 501px) and (max-width:950px){
+    .footer-container{
+        padding: 60px;
+    }
+    .footer-logo-container{
+        padding-bottom: 70px;
+    }
+    .newsletter-form form{
+        display: block;
+    }
+    .newsletter-form button{
+        margin-top: 10px;
+    }
+    .footer-contact-sec {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 14px; 
+    }
+    
+}
+
+
+
+
+/* Footer css for mobile view */
+
+@media screen and (max-width:500px) and (min-width:160px){
+    .footer-container{
+        padding: 20px;
+    }
+    .footer-logo-container{
+        padding-bottom: 36px;
+    }
+    .quick-reports{
+        display: flex;
+        justify-content: space-between;
+    }
+    .corporate-us{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-link-text p{
+        margin-bottom: 0px;
+    }
+    .col-md-3.reach-us-section {
+        margin-top: 25px;
+    }
+    .quick-links{
+        margin-bottom: 0px !important;
+    }
+}

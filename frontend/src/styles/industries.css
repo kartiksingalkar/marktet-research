@@ -1,0 +1,215 @@
+/* For industries popup  */
+
+.industries_text{
+    font-family: Jost;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+/* For Industries main page */
+
+
+
+
+
+
+
+
+
+/* For industries sub pages */
+/* Industries industries-sub page desktop view css starts here */
+
+.industries-sub-section-1{
+    padding: 20px 40px 0px 40px;
+}
+.industries-sub-heading h1{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    text-align: right;
+    margin-right: 65px;
+}
+.industries-sub-section-1 img{
+    width: 82%;
+    float: right;
+    margin-top: -450px;
+    height: 450px;
+    z-index: 1;
+    position: relative;
+}
+.industries-sub-section-2{
+    padding: 25px 80px 35px 80px;
+    background: #EAEAEA;
+}
+.industries-sub-section-2 .search-bar input{
+    width: 40%;
+    float: right;
+}
+.section-2-main{
+    margin-top: 65px;
+}
+.section-2-main .industries-sub-main-card-1{
+    align-items: center;
+    margin: 0px 0px 25px 0px;
+    border: 1px solid #C8C8FF;
+    border-radius: 8px;
+    background: #ffff;
+}
+
+.industries-sub-main-card-1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px 5px;
+}
+.industries-sub-main-card-1 img{
+    margin: 18px;
+}
+
+.main-card-1-report h3{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #272973;
+    margin-left: 35px;
+}
+.main-card-1-report p{
+    margin: 0px 25px 15px 35px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.card-buttons{
+    display: flex;
+}
+.card-buttons .card-request-sample-button button{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #272973;
+    background: #FFFFFF;
+    border: 1px solid #272973;
+    border-radius: 8px;
+    margin-left: 35px;
+    padding: 8px 20px;
+}
+.card-buttons .card-buy-button button{
+    background: #272973;
+    border-radius: 8px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-left: 25px;
+    border: none;
+    padding: 8px 20px;
+}
+
+/* Css for curve */
+.flex-column.nav.nav-pills {
+    background: #272973;
+    height: 450px;
+}
+.flex-column.nav.nav-pills h3{
+    color: white;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: none;
+    background-color: none;
+}
+.flex-column.nav.nav-pills :active{
+    background: none;
+}
+
+/* For industries tab view */
+@media screen and (min-width: 481px) and (max-width: 980px){
+    .industries-sub-section-1 {
+        padding: 20px 30px 0px 30px;
+    }
+    .industries-sub-section-2 {
+        padding: 25px 60px 35px 60px;
+    }
+    .industries-sub-heading h1{
+        font-size: 36px;
+        margin-right: 55px;
+    }
+    .main-card-1-report h3{
+        margin-left: 15px;
+    }
+    .industries-sub-section-1 img {
+        height: 350PX;
+        margin-top: -350PX;
+        width: 75%;
+    }
+    .flex-column.nav.nav-pills h2{
+        font-size: 22px;
+    }
+    .card-buttons .card-request-sample-button button{
+        border: none;
+        background: none;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+        color: #272973;
+        background: #FFFFFF;
+        border: 1px solid #272973;
+        border-radius: 8px;
+        margin-left: 35px;
+        padding: 8px 20px;
+    }
+    
+}
+
+/* Mobile view for industry pages */
+@media screen and (max-width:480px) and (min-width:260px) {
+    .industries-sub-section-1 img {
+        display: none;
+    }
+    .flex-column.nav.nav-pills{
+        background: #272973;
+    }
+    .industries-sub-heading{
+        display: none;
+    }
+    .industries-sub-section-1{
+        padding: 16px;
+    }
+    .marketing-heading{
+        display: none;
+    }
+    .industries-sub-section-2{
+        padding: 16px;
+    }
+    .industries-sub-section-2 .search-bar input{
+        width: 100%;
+    }
+    .industries-sub-main-card-1{
+        display: block;
+    }
+    .industries-sub-main-card-1 img{
+        height: 150px;
+        width: -webkit-fill-available;
+    }
+    .card-buttons .card-request-sample-button button{
+        margin-left: 15px;
+    }
+    .card-buttons .card-buy-button button{
+        padding: 8px 35px 8px 35px;
+    }
+}

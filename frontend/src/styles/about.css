@@ -1,0 +1,102 @@
+/* About page css for desktop view */
+
+.abt-section-1 img{
+    width: 100%;
+}
+
+.abt-section-2{
+    padding: 40px 80px 40px 80px;
+    background: #EAEAEA;
+}
+.abt-section-2 h1{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    color: #272973;
+}
+.abt-section-2 p{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #000000;
+}
+.abt-section-3-banner img{
+    width: 100%;
+}
+
+.abt-section-3{
+    padding: 40px 80px 40px 80px;
+    background: #EAEAEA;
+}
+.abt-section-3 h1{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    color: #272973;
+}
+.abt-section-3 p{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #000000;
+}
+
+/* Faq dropdown css */
+
+.faq-row {
+    background: #FFFF;
+    border-radius: 10px;
+    padding: 5px 20px !important;
+    margin: 2px;
+}
+.row-title-txt {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+/* For about us and career tab view */
+
+
+
+/* for about us and career mob view */
+
+@media screen and (max-width: 481px) and (min-width: 260px){
+    .abt-section-1 img {
+        height: 180px;
+    }
+    .abt-section-2{
+        padding: 24px 16px 24px 16px;
+    }
+    .abt-section-2 h1{
+        font-size: 20px;
+        line-height: 29px;
+    }
+    .abt-section-2 p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .abt-section-3-banner img{
+        height: 180px;
+    }
+    .abt-section-3{
+        padding: 32px 16px 32px 16px;
+    }
+    .abt-section-3 p{
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 25px;
+    }
+}

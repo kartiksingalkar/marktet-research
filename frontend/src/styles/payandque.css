@@ -1,0 +1,512 @@
+/* css for request sample page in pay and que  */
+.request_sample_top {
+  justify-content: center;
+  height: 39px;
+  left: 0px;
+  top: 200px;
+  background: #272973;
+}
+
+.sample_form_container {
+  background: #ffffff;
+  border: 1px solid #c8c8ff;
+  border-radius: 4px;
+}
+
+.free_sample {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 10px;
+
+  background: #272973;
+  border: 1px solid #c8c8ff;
+  border-radius: 4px;
+}
+
+.free_sample_heading {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  color: #ffffff;
+}
+
+/* css for request form  */
+.request_form_para {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #4d4d4d;
+}
+
+.common_form_button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 10px;
+  width: 306px;
+  height: 45px;
+  border: #272973;
+  color: white;
+  background: #272973;
+  border-radius: 8px;
+}
+
+.sample_form_container {
+  background: #ffffff;
+  border: 1px solid #c8c8ff;
+  border-radius: 4px;
+}
+
+.free_sample {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 10px;
+
+  background: #272973;
+  border: 1px solid #c8c8ff;
+  border-radius: 4px;
+}
+
+.free_sample_heading {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  color: #ffffff;
+}
+
+/* css for request form  */
+.request_form_para {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #4d4d4d;
+}
+
+.common_form_button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 10px;
+  width: 306px;
+  height: 45px;
+  border: #272973;
+  color: white;
+  background: #272973;
+  border-radius: 8px;
+}
+
+/* Css for request sample page mobile view */
+@media screen and (min-width: 268px) and (max-width:481px){
+  .p-5.form-outer-space {
+    padding: 14px !important;
+  }
+}
+
+/* Css for buy now page desktop view in pay and que */
+
+/* order summary section  */
+
+.buy-now-main-section{
+  padding: 50px 80px 20px 80px;
+}
+.buy-now-main-container{
+  background: #EAEAEA;
+  padding-bottom: 40px;
+}
+.buy-now-order-buttons{
+  background-color: white;
+}
+.order_container {
+  background: #ffffff;
+  border: 1px solid #c8c8ff;
+  border-radius: 8px;
+}
+.buy-now-cards-section{
+  padding: 50px 50px 50px 50px;
+}
+
+.order_heading {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  /* line-height: 35px; */
+  color: #000000;
+}
+
+.order_energy {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #272973;
+}
+
+.order_license {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+
+  color: #000000;
+}
+
+.order_selcet {
+  width: 180px;
+  height: 36px;
+  background: #eaeaea;
+  border: 1px solid #c8c8ff;
+  border-radius: 4px;
+}
+
+.price_para {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #000000;
+}
+
+.priceNum_para {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #272973;
+}
+
+.order_input {
+  width: 180px;
+  height: 40px;
+
+  background: #eaeaea;
+  border: 1px solid #c8c8ff;
+  border-radius: 8px;
+}
+
+.order_button {
+  width: 90px;
+  height: 40px;
+
+  background: #272973;
+  border-radius: 6px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  border: none;
+
+  color: #ffffff;
+}
+
+.order_span {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  color: #000000;
+}
+
+/* css for payment method section  */
+.payment_method_container {
+  background: #ffffff;
+  border: 1px solid #c8c8ff;
+  border-radius: 8px;
+}
+
+.payment_heading {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+}
+
+/* proceed button css  */
+
+.proceed_btn {
+  display: flex;
+}
+/* css for buy now section  */
+.buy_now_top {
+  justify-content: center;
+  width: 100%;
+  height: 39px;
+  left: 0px;
+  top: 200px;
+  background: #272973;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.order_btn {
+  padding: 16px 12px 12px 12px;
+  gap: 10px;
+  width: -webkit-fill-available;
+  height: 57px;
+  background: #272973;
+  border-radius: 4px;
+  border: none;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+
+  color: #ffffff;
+}
+
+.payment_btn {
+  padding: 16px 12px 12px;
+  gap: 10px;
+  width: -webkit-fill-available;
+  height: 57px;
+  background: #ffffff;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  border-radius: 4px;
+  border: none;
+  color: #000000;
+}
+
+.payment_btn:hover {
+  background: #272973;
+  color: #ffffff;
+}
+
+.confirm_btn {
+  padding: 16px 12px 12px;
+  gap: 10px;
+  width: -webkit-fill-available;
+  height: 57px;
+  background: #ffffff;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  border-radius: 4px;
+  line-height: 29px;
+  border: none;
+  color: #000000;
+}
+
+.confirm_btn:hover {
+  background: #272973;
+  color: #ffffff;
+}
+
+/* proceed button css  */
+
+.proceed_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 28px;
+  gap: 80px;
+  width: 306px;
+  height: 62px;
+  background: #272973;
+  border-radius: 8px;
+  border: none;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) and (max-width: 979px) {
+  .buy-now-main-container{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* Css for buy now page mobile view */
+
+@media screen and (min-width: 268px) and (max-width: 480px) {
+  .order_btn {
+    padding: 0px;
+    gap: 10px;
+    width: 100%;
+    height: 57px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .confirm_btn {
+    padding: 0px;
+    gap: 10px;
+    width: 100%;
+    height: 57px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .payment_btn {
+    padding: 0px;
+    gap: 10px;
+    width: 100%;
+    height: 57px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .buy-now-main-section{
+    padding: 26px;
+  }
+  .lg-mt-5.md-mt-5.col-lg-3.col-md-6.col-sm-12.buy-now-cards-section {
+    padding: 26px;
+  }
+}
+
+/* Css For report summary desktop view  */
+
+/* button section css  */
+
+.reports_summary_para {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #272973;
+}
+
+.report_first_hr {
+  border: 1px solid #272973;
+}
+
+.report_second_hr {
+  border: 2px solid #272973;
+}
+
+.report_social {
+  width: 24px;
+  height: 24px;
+}
+
+.region_text {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #272973;
+}
+
+.reports_common_btn {
+  padding: 6px 8px;
+  background: #d9d9d9;
+  border-radius: 4px 4px 0px 0px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  border: none;
+  height: 35px;
+}
+
+.reports_common_btn:hover {
+  background: #272973;
+  color: #ffffff;
+}
+
+.pdf_btn {
+  background: #005874;
+  border-radius: 4px 4px 0px 0px;
+  border: none;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  height: 35px;
+  color: #ffffff;
+}
+
+.market_insights_heading {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #272973;
+}
+
+.market_insights_common_para {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.request_pdf {
+  width: 18.05px;
+  height: 21px;
+}
+
+.report-section-3{
+  padding-top: 25px;
+}
+.report-section-3 h3{
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  text-decoration-line: underline;
+  color: #272973;
+}
+.report-section-3 .report-section-3-faq{
+  margin-top: 20px;
+}
+.report-section-3-faq-toc{
+  padding-top: 25px;
+}
+.request-pdf-form {
+  margin-top: 25px;
+}
+
+/* css for report summary tab view  */
+@media screen and (max-width: 992px) {
+  .pdf_btn {
+    font-size: 10px;
+  }
+  .request_pdf {
+    width: 15px;
+    height: 15px;
+  }
+}

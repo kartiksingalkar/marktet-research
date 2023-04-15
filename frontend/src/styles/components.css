@@ -1,0 +1,408 @@
+/* Css for navbar */
+.navbar-container {
+  padding: 0 30px 0 100px;
+}
+.search-navbar-tab{
+  display: none;
+}
+@media screen and (max-width:991px) and (min-width:501px) {
+  .search-navbar-tab{
+    display: block;
+  }
+}
+@media screen and (min-width: 268px) and (max-width:500px) {
+  .navbar-container {
+    padding: 2px;
+  }
+  .search-navbar-tab{
+    display: block;
+  }
+}
+.nav-link {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px !important;
+  line-height: 29px;
+  color: #272973 !important;
+  padding: 0 !important;
+  white-space: pre-line;
+}
+.navbar-nav {
+  gap: 30px;
+}
+.dropdown-toggle::after {
+  display: none !important;
+
+}
+.dropdown-menu {
+  left: -650px !important;
+  margin-top: 33px !important;
+  width: 1250px;
+  padding: 0 !important;
+}
+.industries-services{
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.industries-services a{
+  color: black;
+  text-decoration: none;
+}
+
+/* For Top bar */
+
+.topbar_search {
+  display: flex;
+}
+.topbar_search_icon {
+  margin: 8px;
+}
+
+.topbar_input_feild {
+  width: 340px !important;
+  height: 36px;
+}
+
+.topbar_select {
+  height: 36px;
+}
+li.nav-item.mail_icon.d-flex.flex-row {
+  align-items: center;
+}
+li.nav-item.american-text.d-flex.flex-row {
+  align-items: center;
+}
+li.nav-item.london-text.d-flex.flex-row {
+  align-items: center;
+}
+.topbar_search {
+  align-items: center;
+}
+
+
+
+
+/* Tab view  */
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  nav.navbar.navbar-expand-md.navbar-light.bg-light {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 481px) {
+  nav.navbar.navbar-expand-md.navbar-light.bg-light {
+    display: none;
+  }
+}
+
+
+/* Mobile view top bar none */
+@media screen and (min-width: 268px) and (max-width:480px){
+  nav.navbar.navbar-expand-md.navbar-light.bg-light {
+    display: none;
+  }
+}
+
+/* For footer  */
+
+/* For Contact info common */
+/* For contact info component custom css */
+.contact-info-call-to {
+  display: flex;
+  justify-content: flex-end;
+  padding: 80px 0px 10px 0px;
+}
+.contact-info-call-to p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+  color: #000000;
+}
+.contact-info-call-to img {
+  margin: 5px;
+  height: 24px;
+  width: 36px;
+}
+.contact-info-mailto {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 35px 0px 0px;
+  font-size: 18px;
+}
+.contact-info-mailto img {
+  margin: 5px;
+}
+
+/* speak to analysis css for components */
+
+/* speak to analysis form button  */
+.form_button {
+  color: #ffffff;
+  width: 140px;
+  height: 45px;
+  background: #272973;
+  border-radius: 8px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  border: #272973;
+}
+
+/* speak to analysis call us section  */
+
+.call_us_heading {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #272973;
+}
+
+.call_us_para {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #272973;
+}
+
+.call_us_american_img {
+  width: 36px;
+  height: 24px;
+}
+
+.call_us_london_img {
+  width: 36px;
+  height: 24px;
+}
+
+/* speak to analysis mail us section  */
+.mailus_heading {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #272973;
+}
+
+.mailus_para {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #272973;
+}
+
+/* speak to analysis address section  */
+.address_heading {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #272973;
+}
+
+.address_para {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #272973;
+}
+
+
+/* For pay and que pages */
+
+
+/* Reqest para page */
+
+.request_sample_heding {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #272973;
+}
+
+.request_sample_para {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #000000;
+}
+
+/* Need more info component in pay and que page*/
+.info_container {
+  background: #ffffff;
+  border: 1px solid #c8c8ff;
+  border-radius: 8px;
+}
+
+.info_heading {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+}
+
+.info_first_button {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #ffffff;
+  padding: 8px 12px;
+  gap: 10px;
+  width: 250px;
+  height: 45px;
+  background: #1a7204;
+  border-radius: 8px;
+  border: none;
+}
+
+.info_second_button {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #ffffff;
+  padding: 8px 12px;
+  gap: 10px;
+  width: 250px;
+  height: 45px;
+  background: #6c1183;
+  border-radius: 8px;
+  border: none;
+}
+
+.info_third_button {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #ffffff;
+  padding: 8px 12px;
+  gap: 10px;
+  width: 250px;
+  height: 45px;
+  background: #6f0101;
+  border-radius: 8px;
+  border: none;
+}
+
+.info_forth_button {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #ffffff;
+  padding: 8px 12px;
+  gap: 10px;
+  width: 250px;
+  height: 45px;
+  background: #005874;
+  border-radius: 8px;
+  border: none;
+}
+
+
+/* Css for licence type component in pay and que pages */
+
+.license_type {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  height: 59px;
+  background: #272973;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.license_type_heading {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  color: #ffffff;
+}
+
+.user_text {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.buy_now_button {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #ffffff;
+  padding: 8px 12px;
+  gap: 10px;
+  width: 220px;
+  height: 45px;
+  background: #272973;
+  border-radius: 8px;
+  border: none;
+}
+
+.discount_button {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #272973;
+  padding: 8px 12px;
+  gap: 10px;
+  width: 220px;
+  height: 45px;
+  background: #eaeaea;
+  border-radius: 8px;
+  border: 1px solid #c8c8ff;
+}
+
+/* css for Ellora Market Research  */
+
+.emr-img {
+  width: 80%;
+  height: 180px;
+  margin-left: 40px;
+  margin-right: 20px;
+  background: #cdceff;
+  border-radius: 4px;
+}
+
+.emr-para {
+  padding: 20px 0 0 104px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #000000;
+}

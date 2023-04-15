@@ -1,0 +1,701 @@
+/* Desktop view css   */
+
+/* about ellora section  */
+
+.ellora_parent {
+  position: relative;
+  background-color: #EAEAEA;
+}
+
+.about_ellora_heading {
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 46px;
+  line-height: 53px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.about_ellora_para {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: #ffffff;
+}
+
+.about_ellora_num {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+
+  color: #000000;
+}
+
+.ellora_child1 {
+  width: 1012px;
+  height: 558px;
+  left: 0px;
+  top: 0px;
+  color: white;
+  background: #272973;
+}
+.ellora_card_container {
+  margin-right: 100px;
+  margin-top: -161px;
+  margin-left: 132px;
+}
+
+.ellora_child2 {
+  height: 256px;
+  border-radius: 28px;
+  padding: 84px 48px 64px 48px;
+  display: flex;
+  background-color: white;
+}
+
+/* common style section  */
+.common_para {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: #000000;
+}
+
+/* report section  */
+.reports_cart_items {
+  width: 200px;
+  height: 200px;
+  background: #cdceff;
+  border-radius: 8px;
+}
+.latest_report_top {
+  display: flex;
+}
+
+.latest-reports-section{
+  padding: 60px 100px 60px 100px;
+  background-color: #EAEAEA;
+}
+
+.latest_report_heading {
+  
+  color: #272973;
+  text-align: center;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 67px;
+}
+
+.browse_btn {
+  padding: 16px 32px;
+  gap: 10px;
+  width: 40%;
+  height: 61px;
+  border: none;
+  background: #272973;
+  border-radius: 12px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+}
+.latest_report_parent{
+  margin-top: 56px;
+  margin-bottom: 86px;
+}
+
+.report_button {
+  display: flex;
+  justify-content: center;
+  padding-top: 76px;
+}
+
+.latest-report-desktop-view {
+  padding-top: 46px;
+}
+.latest-report-text{
+  padding: 25px 0px 0px 0px;
+}
+.latest-report-text p{
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: #000000;
+  text-align: center;
+}
+
+
+.latest-report-mobile-view{
+  display: none;
+}
+
+/* forthcoming report  */
+.forthcoming_report_heading {
+  color: #272973;
+  text-align: center;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 67px;
+}
+
+.home-forthcoming-section{
+  padding: 60px 100px 60px 100px;
+}
+
+.forthcoming_report_cart {
+  width: 200px;
+  height: 200px;
+  background: #cdceff;
+  border-radius: 8px;
+}
+.forthcoming_report_text p{
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: #000000;
+  text-align: center;
+  padding-top: 32px;
+}
+
+.forthcoming-mobile-view{
+  display: none;
+}
+
+/* Industry we serve  */
+.industries_serve_heading {
+  color: #272973;
+  text-align: center;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 67px;
+}
+
+.industries-first-line{
+  display: flex;
+}
+
+.industries-card{
+  margin-bottom: 50px;
+  width: 100%;
+  height: 250px;
+  border: 1px solid #cdceff ;
+  border-radius: 5px;
+}
+
+.industries-card img{
+  width: 50%;
+  height: 100px;
+  background: #cdceff;
+  border-radius: 50%;
+}
+
+.industries-content{
+  text-align: center;
+  padding-top: 40px;
+ 
+}
+.industries_we_serve_text{
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: #000000;
+  text-align: center;
+  padding-top: 32px;
+}
+.industries-text{
+  padding: 10px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000;
+  margin-top: 12px;
+}
+.industries-main-section-home{
+  padding: 60px 100px 46px 100px;
+  background-color: #EAEAEA;
+}
+.industries-first-line{
+  padding-top: 46px;
+}
+
+/* Trusted By section  */
+.trusted_by_heading {
+  color: #272973;
+  text-align: center;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 67px;
+  padding-bottom: 40px;
+}
+
+/* .trusted_by_img {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  background: #cdceff;
+  border-radius: 50%;
+} */
+
+.trusted_by_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 25px; */
+  margin: 15px;
+}
+.trusted_by_section_one{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 25px; */
+  margin: 15px;
+}
+.trusted_by_cards{
+  padding: 25px;
+  border: 1px solid #cdceff;
+}
+.trusted_by_card img{
+  height: 100px;
+  border-radius: 50%;
+}
+
+.trusted_by_section img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+.trusted_by_section_one img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+.trusted_by_main_section{
+  padding: 60px 100px 50px 100px;
+}
+
+/* Testmonial section  */
+.testomonial_heading {
+  color: #272973;
+  text-align: center;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 67px;
+  margin-bottom: 50px;
+}
+
+.cart_item {
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  background: #cdceff;
+  border-radius: 8px;
+}
+
+.testmonial_card {
+  height: 450px;
+  border-radius: 8px;
+  border: 1px solid #cdceff;
+  text-align: center;
+}
+
+.testmonial_parent{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.testomonial_img{
+  width: 150px;
+  height: 150px;
+  background: #cdceff;
+  border-radius: 8px;
+}
+
+.testmonial_para{
+  padding: 0 5px 0 5px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: #000000;
+}
+.testmonial_container{
+  padding: 60px 100px 50px 100px;
+}
+
+/* quality assurance section  */
+.quality_assurance_container{
+  padding: 100px;
+}
+
+.quality-assurance-parent {
+  padding-top: 150px;
+}
+
+.quality_heading {
+  color: #272973;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 67px;
+}
+
+.quality_assurance_img {
+  margin-top: 45px;
+  width: 478px;
+  height: 478px;
+  background: #cdceff;
+  border-radius: 16px;
+}
+
+/* Tab view section  */
+/* quality assurance section  */
+
+
+/* media query for tab */
+@media screen and (max-width:980px) and (min-width:481px) {
+  .quality_assurance_container{
+    padding: 40px;
+  }
+  .quality_heading{
+    font-size: 44px;
+    margin-top: 0px;
+  }
+  .quality_assurance_img {
+    width: 300px;
+    height: 300px;
+  }
+  .reports_cart_items {
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+  .forthcoming_report_cart {
+    margin-bottom: 5%;
+  }
+  .browse_btn{
+    width: 80%;
+  }
+  .latest-reports-section{
+    padding: 60px 80px 60px 80px;
+  }
+  .home-forthcoming-section{
+    padding: 60px 80px 60px 80px;
+  }
+  .testmonial_container {
+    margin-left: 8%;
+  }
+  .report_button{
+    padding: 26px;
+  }
+  
+  .trusted_by_card {
+    margin-bottom: 5%; /* Trusted by section  */
+  }
+  .industries_card {
+    margin-bottom: 5%;
+  }
+  /* Css for trusted by section tab view */
+  .trusted_by_main_section{
+    padding: 40px 10px 40px 10px;
+  }
+  .trusted_by_section{
+    padding: 0px;
+  }
+  
+
+  .quality-assurance-parent {
+    padding-top: 50px;
+  }
+  .quality_assurance_img {
+    width: 300px;
+    height: 300px;
+  }
+  .reports_cart_items {
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+  
+}
+
+
+
+
+/* Home page mobile view csss */
+
+
+
+@media screen and (max-width:480px) and (min-width:260px) {
+  h2.about_ellora_heading.ms-5 {
+    font-size: 20px;
+  }
+  .quality_assurance_img{
+    height: 180px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .quality_mob_view{
+    display: flex;
+    flex-direction: column;
+  }
+  .quality_assurance_container{
+    padding: 26px;
+  }
+  .quality-assurance-parent{
+    padding-top: 14px !important;
+  }
+  .ellora_card_container{
+    margin: 0px;
+  }
+  .ellora_child1{
+    height: 169px;
+  }
+  .ellora_child2{
+    padding: 30px 0px 0px 0px;
+    height: auto;
+  }
+  .about_ellora_para{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .about_ellora_num{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .common_para{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+  }
+  .quality_heading {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: initial;
+  }
+  .latest-report-section{
+    padding: 26px !important;
+  }
+  .reports_cart_items{
+    height: 100px;
+  } 
+  .latest_report_heading{
+    font-size: 20px;
+    line-height: 29px;
+    text-align: initial;
+  }
+
+  .browse_btn{
+    width: 100%;
+  }
+  .latest-reports-section{
+    padding: 26px !important;
+  }
+  .emr-parent{
+    padding: 5px 0px 5px 0px !important;
+  }
+  .report_button{
+    padding-top: 34px;
+  }
+  .forthcoming_report_text p{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    padding-top: 5px;
+  }
+  .home-forthcoming-section{
+    padding: 26px;
+  }
+  .forthcoming_report_heading{
+    font-size: 20px;
+    line-height: 29px;
+    text-align: initial;
+  }
+  .forthcoming_report_cart{
+    height: 100px;
+  }
+  .industries-main-section-home{
+    padding: 26px 26px 0px 26px;
+    margin: 0px;
+    background: #EAEAEA;
+  }
+  .industries_serve_heading{
+    font-size: 20px;
+    line-height: 29px;
+    text-align: initial;
+  }
+  /* slider */
+  @keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-250px * 7));
+    }
+    }
+    .trusted_by_cards .slider {
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        width: auto;
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+    }
+    .slider .slide-track {
+        animation: scroll 20s linear infinite;
+        animation-fill-mode: forwards;
+        display: flex;
+        width: calc(109px*10);
+    }
+    .trusted_by_section_one{
+      display: none;
+    }
+  .trusted_by_heading{
+    font-size: 20px;
+    line-height: 29px;
+    text-align: initial;
+    padding-bottom: 10px;
+  }
+  .trusted_by_main_section{
+    padding: 26px;
+  }
+  .trusted_by_section{
+    padding: 0px;
+  }
+  .trusted_by_cards{
+    padding: 0px;
+    border: none;
+  }
+  .trusted_by_section img{
+    border-radius: 0%;
+    height: 156px;
+    width: 180px;
+  }
+  .latest-report-text p{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+  }
+  .latest-report-text{
+    padding-top: 8px;
+  }
+
+  .latest-report-desktop-view{
+    display: none;
+  }
+
+  .latest-report-mobile-view{
+    display: block;
+  }
+
+  .forthcoming-desktop-view{
+    display: none;
+  }
+  .forthcoming-mobile-view{
+     display: block;
+  }
+
+  /* industries we serve mobile view css  */
+  .industries-card{
+    width: 100%;
+    height: 160px;
+    background: #FFFF;
+    margin-bottom: 28px;
+  }
+  .industries_we_serve_text{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    padding-top: 5px;
+  }
+  .industries-first-line{
+    padding-top: 10px;
+  }
+  .industries-card img{
+    border-radius: 0px;
+    width: -webkit-fill-available;
+    height: 70px;
+  }
+  .industries-content{
+    padding: 0px;
+  }
+  .industries-text{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+  }
+  /* Testimonials mobile view */
+  .testmonial_para{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: initial;
+    background: #ffff;
+    padding: 8px;
+  }
+  .testomonial_heading {
+    font-size: 20px;
+    line-height: 29px;
+    text-align: initial;
+    margin-bottom: 32px;
+  }
+  .testimonial_main_section{
+    padding: 26px 16px 26px 16px;
+    background: #EAEAEA;
+  }
+  .testmonial_parent{
+    margin: 0px;
+  }
+  .testomonial_img{
+    height: 100px;
+    width: -webkit-fill-available;
+
+  }
+  .testmonial_card{
+    height: 208px;
+    margin-bottom: 20px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .testmonial_container{
+    padding: 0px;
+  }
+}

@@ -1,0 +1,254 @@
+/* Css for Insights sub pages  */
+/* Insights-sub page desktop view css starts here */
+
+.insights-sub-section-1{
+    padding: 20px 80px 0px 80px;
+}
+.insights-sub-heading h1{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 54px;
+    text-align: right;
+    margin-right: 65px;
+}
+.insights-sub-section-1 img{
+    width: 82%;
+    float: right;
+    margin-top: -450px;
+    height: 450px;
+    z-index: 1;
+    position: relative;
+}
+.insights-sub-heading {
+    display: flex;
+    justify-content: flex-end;
+}
+.flex-column h3{
+    margin: 5px 0px 5px 10px;
+}
+.insights-sub-section-2{
+    padding: 25px 80px 35px 80px;
+    background: #EAEAEA;
+}
+.insights-sub-section-2 .search-bar{
+    margin-top: 25px;
+}
+.insights-sub-section-2 .search-bar input{
+    width: 40%;
+}
+.section-2-main{
+    margin-top: 65px;
+}
+.section-2-main .insights-sub-main-card-1{
+    align-items: center;
+    margin: 0px 0px 25px 0px;
+    border: 1px solid #C8C8FF;
+    border-radius: 8px;
+    background: #ffff;
+}
+.section-2-main{
+    padding-top: 40px;
+}
+
+.insights-sub-main-card-1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px 5px;
+}
+.insights-sub-main-card-1 img{
+    margin: 18px;
+}
+
+.main-card-1-report h3{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #272973;
+    margin-left: 35px;
+}
+.main-card-1-report p{
+    margin: 0px 25px 15px 35px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.card-buttons-insights{
+    display: flex;
+}
+.card-buttons-insights .card-request-sample-button button{
+    border: none;
+    background: none;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #272973;
+    background: #FFFFFF;
+    border: 1px solid #272973;
+    border-radius: 8px;
+    margin-left: 35px;
+    padding: 8px 20px;
+}
+.card-buttons-insights .card-buy-button button{
+    background: #272973;
+    border-radius: 8px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-left: 25px;
+    border: none;
+    padding: 8px 20px;
+}
+.insights-dropdown-section h1{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+
+}
+.insights-dropdown-section{
+    margin-left: 25px;
+}
+
+/* Tab view */
+
+@media screen and (max-width: 980px) and (min-width:481px) {
+
+    .insights-sub-section-1{
+        padding: 20px 30px 0px 30px;
+    }
+    .insights-sub-section-1 img{
+        height: 350px;
+        margin-top: -350px;
+        width: 78%;
+    }
+    .insights-sub-section-1 h3{
+        font-size: 22px;
+    }
+    .flex-column.nav.nav-pills {
+        height: 350px;
+    }
+    .main-card-1-report h3{
+        margin-left: 15PX;
+    }
+    
+    .insights-sub-heading h1{
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: right;
+        margin-right: 42px;
+    }
+    .insights-sub-section-2{
+        padding: 20px 40px 30px 40px;
+    }
+
+    .insights-sub-main-card-1 img{
+        margin: 10px;
+    }
+    .main-card-1-report p{
+        margin: 0px 15px 10px 15px;
+    }
+    .card-buttons .card-request-sample-button button {
+        font-size: 18px;
+        line-height: 26px;
+        margin-left: 25px;
+        /* padding: 2px 5px; */
+    }
+    .card-buttons-insights .card-request-sample-button button{
+        font-size: 18px;
+        line-height: 26px;
+        margin-left: 25px;
+        padding: 2px 5px;
+    }
+    .insights-dropdown-section h1{
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .insights-dropdown-section {
+        margin-left: 20px;
+    }
+
+}
+
+/* Insights page mobile view */
+
+@media screen and (max-width:480px) and (min-width:260px) {
+
+    .insights-sub-section-1{
+        padding: 0px;
+        background-image: url('../media/images/insights-mob-banner.png');
+    }
+    
+    .insights-sub-section-1 img {
+        display: none;
+    }
+    .flex-column.nav.nav-pills{
+        height: 250px;
+    }
+    .flex-column.nav.nav-pills h3 {
+        font-size: 20px;
+    }
+    .insights-sub-section-2 h2{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        color: #272973;
+    }
+    .insights-sub-heading{
+        display: none;
+    }
+    .main-card-1-report p{
+        font-size: 15px;
+    }
+    .insights-sub-section-2{
+        padding: 16px;
+    }
+    .insights-sub-main-card-1{
+        display: block;
+        padding: 10px 5px 10px 5px;
+    }
+    .insights-sub-main-card-1 img{
+        height: 120px;
+        width: -webkit-fill-available;
+    }
+    .insights-sub-section-2 .search-bar input{
+        width: 100%;
+    }
+    .card-buttons .card-request-sample-button button{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .card-buttons .card-buy-button button {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .main-card-1-report p{
+        margin: 0px 20px 15px 25px;
+    }
+    .main-card-1-report h3{
+        margin-left: 25px;
+    }
+    .insights-dropdown-section{
+        display: none;
+    }
+
+
+}

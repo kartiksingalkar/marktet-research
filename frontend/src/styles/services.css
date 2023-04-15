@@ -1,0 +1,142 @@
+/* For desktop view */
+
+.services-section-1 img{
+    width: 100%;
+}
+.services-section-2{
+    padding: 40px 80px 40px 80px;
+    display: flex;
+    flex-direction: column;
+    background: #EAEAEA
+}
+.services-section-2 h3{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    color: #272973;
+}
+.sub-services-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.sub-services-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px 5px 20px;
+}
+.sub-services-2 img{
+    height: 150px;
+    width: 150px;
+    margin-bottom: 20px;
+    padding: 5px 5px 5px 20px;
+    margin-top: 20px;
+}
+.sub-services-1 img{
+    height: 150px;
+    width: 150px;
+    padding: 5px 20px 5px 5px;
+    margin-top: 20px;
+}
+.sub-services-img img{
+    height: 150px;
+    width: 150px;
+    margin-bottom: 20px;
+    padding: 5px 20px 5px 5px;
+    margin-top: 20px;
+}
+.sub-services-2{
+    display: flex;
+    margin-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #C8C8FF;
+    border-radius: 8px;
+}
+.sub-services-2-i{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 25px;
+    padding: 5px 5px 5px 20px;
+    border: 1px solid #C8C8FF;
+    border-radius: 8px;
+}
+
+.sub-services-1-report {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 0px 5px 10px;
+}
+
+.services-section-3{
+    display: flex;
+    justify-content: center;
+    padding: 25px 0px 0px 0px;
+}
+.services-section-3 .services-speak-button{
+    background-color: #272973;
+    padding: 16px 32px;
+    gap: 10px;
+    width: max-content;
+    border-radius: 8px;
+}
+.services-section-3 .services-speak-button button {
+    background: none;
+    color: #ffff;
+    border: none;
+}
+
+/* For services tab view */
+
+@media screen and (min-width: 481px) and (max-width:768px) {
+    .services-section-2{
+        padding: 30px 60px 30px 60px;
+    }
+    .services-section-3 .services-speak-button{
+        padding: 16px 22px;
+    }
+}
+
+/* css for services mobile view */
+
+@media screen and (max-width:480px) and (min-width:260px) {
+    .services-section-1 img{
+        height: 180px;
+    }
+    .services-section-2{
+        padding: 10px 20px 10px 20px; 
+    }
+    .sub-services-2{
+        display: block;
+    }
+    .sub-services-2 img{
+        width: -webkit-fill-available;
+        margin: 10px 15px 10px 10px;
+        width: -webkit-fill-available;
+        padding: 0px;
+    }
+    .sub-services-2-i{
+        display: block;
+    }
+    .sub-services-img img {
+        width: -webkit-fill-available;
+        margin-top: 5px;
+    }
+    .sub-services-1 img{
+        width: -webkit-fill-available;
+        margin-top: 5px;
+    }
+    .services-section-3 .services-speak-button{
+        padding: 12px 24px;
+        font-size: 14px;
+        width: auto;
+    }
+    .sub-services-2-i{
+        padding: 5px 5px 5px 5px;
+    }
+}
